@@ -1,0 +1,19 @@
+TollPlaza
+A toll plaza collects toll charges for vehicles crossing the same. The toll rates differ for different vehicle types. The toll rates are listed below:
+
+Car(C) - 50
+Van(V) - 75
+Bus/Lorry(B/L) - 100
+However a full waiver of toll rate is provided if the passenger is a Government servant.
+Construct a class named TollPlaza and have suitable data members and a member method named tollRate() which will return the toll fare to be paid based on the vehicle type. Overload the tollRate() method to accommodate the waiver for Government servants.
+
+Write a Java Application and subsequent pseudocode to simulate the above class with suitable instance members(i.e, All the Data Members are private and Member methods are public ). Define getData() and putData() methods to read and print the Vehicle attributes.
+
+Input : Vehicle_Type, Vehicle_Price, Govt_Vehicle(Y/N)
+
+Output : Govt_Vehicle, Vehicle_Type, Vehicle_Price and Toll_Rate.
+
+Note :
+
+if Vehicle_Type is Otherthan(C/L/V/B), then print "Invalid Vehicle Type"
+if Vehicle_Price is -Ve, then Print "Invalid Price"
