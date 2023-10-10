@@ -45,7 +45,6 @@ public class Fan {
         this.radius = radius;
     }
 
-    // Accessor and mutator methods for color
     public String getColor() {
         return color;
     }
