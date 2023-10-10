@@ -29,7 +29,6 @@ public class Fan {
         }
     }
 
-    // Accessor and mutator methods for on
     public boolean isOn() {
         return on;
     }
