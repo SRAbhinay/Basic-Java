@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Fan {
-    // Constants for fan speed
     public static final int SLOW = 1;
     public static final int MEDIUM = 2;
     public static final int FAST = 3;
