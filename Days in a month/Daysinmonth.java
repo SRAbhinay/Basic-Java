@@ -15,8 +15,7 @@ public class Main {
         if (isValidMonth(month) && isValidYear(year)) {
              String monthName = getMonthName(month);
              int daysInMonth = getDaysInMonth(month, year);
-            
-            System.out.printf("%s %d has %d days%n", monthName, year, daysInMonth);
+             System.out.printf("%s %d has %d days%n", monthName, year, daysInMonth);
         } else {
             System.out.println("Invalid input");
         }
