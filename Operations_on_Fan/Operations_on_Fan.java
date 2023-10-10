@@ -77,7 +77,6 @@ public class FanApplication {
         System.out.print("Turn the fan on (t/f): ");
         String turnOn = scanner.next();
 
-        // Set fan properties
         fan.setSpeed(speed);
         fan.setRadius(radius);
         fan.setColor(color);
