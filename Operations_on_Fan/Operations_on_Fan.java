@@ -1,4 +1,4 @@
-import java.util.Scanner; // Import Scanner class for user input
+import java.util.Scanner;
 
 public class Fan {
     // Constants for fan speed
