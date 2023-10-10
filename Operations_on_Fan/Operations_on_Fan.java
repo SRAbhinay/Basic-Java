@@ -17,7 +17,6 @@ public class Fan {
         color = "blue";
     }
 
-    // Accessor and mutator methods for speed
     public int getSpeed() {
         return speed;
     }
