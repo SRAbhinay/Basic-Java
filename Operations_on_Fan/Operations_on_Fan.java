@@ -93,6 +93,6 @@ public class FanApplication {
 
         System.out.println(fan.toString());
         
-        scanner.close(); // Close the Scanner
+        scanner.close();
     }
 }
