@@ -13,7 +13,7 @@ public class Main {
         scanner.close();
         
         if (isValidMonth(month) && isValidYear(year)) {
-            String monthName = getMonthName(month);
+             String monthName = getMonthName(month);
             int daysInMonth = getDaysInMonth(month, year);
             
             System.out.printf("%s %d has %d days%n", monthName, year, daysInMonth);
