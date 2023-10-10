@@ -10,7 +10,6 @@ public class Fan {
     private double radius;
     private String color;
 
-    // Constructor with default values
     public Fan() {
         speed = SLOW;
         on = false;
