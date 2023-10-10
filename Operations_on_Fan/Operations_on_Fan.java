@@ -37,7 +37,6 @@ public class Fan {
         this.on = on;
     }
 
-    // Accessor and mutator methods for radius
     public double getRadius() {
         return radius;
     }
