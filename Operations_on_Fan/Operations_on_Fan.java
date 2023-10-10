@@ -53,7 +53,6 @@ public class Fan {
         this.color = color;
     }
 
-    // toString method
     public String toString() {
         if (on) {
             return "Fan speed: " + speed + ", color: " + color + ", radius: " + radius;
