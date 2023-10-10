@@ -65,7 +65,7 @@ public class Fan {
 
 public class FanApplication {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // Create a Scanner object for user input
+        Scanner scanner = new Scanner(System.in);
         Fan fan = new Fan();
 
         System.out.print("Enter speed (1 for SLOW, 2 for MEDIUM, 3 for FAST): ");
