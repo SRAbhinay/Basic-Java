@@ -91,7 +91,6 @@ public class FanApplication {
             return;
         }
 
-        // Print the fan description
         System.out.println(fan.toString());
         
         scanner.close(); // Close the Scanner
