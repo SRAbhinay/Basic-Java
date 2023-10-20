@@ -66,11 +66,14 @@ void makeListOfFreeFields(int freeRows[], int freeCols[], int& freeCount) {
 }
 
 char victoryFor(char sgn) {
+    
     if (sgn == 'X') {
         return 'm';
-    } else if (sgn == 'O') {
+    } 
+    else if (sgn == 'O') {
         return 'y';
-    } else {
+    } 
+    else {
         return 'n';
     }
 }
