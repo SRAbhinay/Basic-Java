@@ -40,6 +40,7 @@ void enterMove() {
         int col = (move - 1) % 3;
         char sign = board[row][col];
         ok = (sign != 'O' && sign != 'X');
+       
         if (!ok) {
             std::cout << "Are you Blind 😑😑: repeat your input!" << std::endl;
             continue;
