@@ -17,8 +17,10 @@ class Main {
             System.out.println("Invalid input: 'a' cannot be zero.");
         } 
         else if (discriminant > 0) {
+            
             double root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
             double root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+            
             System.out.printf("Root 1: %.3f%n", root1);
             System.out.printf("Root 2: %.3f%n", root2);
         } 
