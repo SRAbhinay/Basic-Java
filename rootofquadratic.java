@@ -25,7 +25,8 @@ class Main {
         else if (discriminant == 0) {
             double root = -b / (2 * a);
             System.out.printf("Root: %.3f%n", root);
-        } else {
+        } 
+        else {
             System.out.println("No real roots");
         }
     }
