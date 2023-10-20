@@ -26,6 +26,7 @@ void displayBoard() {
 void enterMove() {
     int move;
     bool ok = false;
+    
     while (!ok) {
         std::cout << "Enter your move enemy 😈 (1-9): ";
         std::cin >> move;
