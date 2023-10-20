@@ -5,6 +5,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         double a, b, c;
 
+        //taking user input
         System.out.print("Enter the coefficients a, b, and c: ");
         a = scanner.nextDouble();
         b = scanner.nextDouble();
