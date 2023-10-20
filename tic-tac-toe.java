@@ -102,7 +102,8 @@ int main() {
         if (humanTurn) {
             enterMove();
             victor = victoryFor('O');
-        } else {
+        } 
+        else {
             drawMove();
             victor = victoryFor('X');
         }
