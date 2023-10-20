@@ -29,7 +29,7 @@ class Main {
             System.out.printf("Root: %.3f%n", root);
         } 
         else {
-            System.out.println("No real roots");
+            System.out.println("No real roots exist");
         }
     }
 }
