@@ -118,9 +118,11 @@ int main() {
     displayBoard();
     if (victor == 'y') {
         std::cout << "Shit 😣😥😡, You won!" << std::endl;
-    } else if (victor == 'm') {
+    } 
+    else if (victor == 'm') {
         std::cout << "U LOOSER: 😁😁😁😁I won" << std::endl;
-    } else {
+    } 
+    else {
         std::cout << "Good Game: 🙌🙌 It's a Tie!" << std::endl;
     }
 
