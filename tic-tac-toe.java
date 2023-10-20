@@ -81,6 +81,7 @@ char victoryFor(char sgn) {
 void drawMove() {
     int freeRows[9], freeCols[9], freeCount;
     makeListOfFreeFields(freeRows, freeCols, freeCount);
+    
     if (freeCount > 0) {
         int thisOne = rand() % freeCount;
         int row = freeRows[thisOne];
