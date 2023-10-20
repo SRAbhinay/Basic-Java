@@ -14,7 +14,7 @@ class Main {
         double discriminant = b * b - 4 * a * c;
 
         if (a == 0) {
-            System.out.println("Invalid input: 'a' cannot be zero.");
+            System.out.println("Invalid input: By property of quadratic equation,'a' cannot be zero.");
         } 
         else if (discriminant > 0) {
             
