@@ -31,6 +31,7 @@ void enterMove() {
         std::cout << "Enter your move enemy 😈 (1-9): ";
         std::cin >> move;
         ok = (move >= 1 && move <= 9);
+      
         if (!ok) {
             std::cout << "Are you Blind 😑😑: repeat your input!" << std::endl;
             continue;
